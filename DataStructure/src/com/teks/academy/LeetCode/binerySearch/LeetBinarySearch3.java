@@ -33,12 +33,12 @@ public class LeetBinarySearch3 {
 			return 'a';
 		}
 		
-		System.out.println("value is "+arr[r]);
-		return arr[r];
+		System.out.println("value is "+arr[l]);
+		return arr[l];
 	}
 	public static void main(String[] args) {
 		char[] arr= {'c','e','g','k','y'};
-		char target='z';
+		char target='f';
 		System.out.println("return value is "+test(arr, target));
 	}
 }
