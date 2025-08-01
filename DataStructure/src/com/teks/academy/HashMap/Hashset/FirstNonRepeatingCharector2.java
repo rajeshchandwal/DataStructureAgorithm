@@ -8,7 +8,8 @@ public class FirstNonRepeatingCharector2 {
 	public static char firstNonRepeating(String str) {
 		
 		Map<Character, Integer> map = new HashMap<>();
-		for(char ch :str.toCharArray()) {
+		for(int i=0;i<str.length();i++) {
+			char ch  = str.charAt(i);
 			map.put(ch, map.getOrDefault(ch, 0)+1);
 			
 			

@@ -30,7 +30,7 @@ public class LeetBinarySearch2 {
 
 	public static void main(String[] args) {
 		int[] arr= {1,3,4,5};
-		int num=6;
+		int num=2;
 		test(arr, num);
 
 	}

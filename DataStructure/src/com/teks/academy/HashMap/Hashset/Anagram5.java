@@ -8,10 +8,12 @@ public class Anagram5 {
 		
 		
 		HashMap<Character, Integer> map = new HashMap<>();
-		for(char ch : s.toCharArray()) {
+		for(int i=0; i<s.length();i++) {
+			char ch = s.charAt(i);
 			map.put(ch, map.getOrDefault(ch, 0)+1);
 		}
-		for(char c :t.toCharArray()) {
+		for(int i=0;i<t.length();i++) {
+			char c = t.charAt(i);
 			if(!map.containsKey(c)) {
 				return false;
 			}

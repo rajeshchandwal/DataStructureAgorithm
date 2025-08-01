@@ -22,7 +22,7 @@ public class LongestSubString7 {
 		
 	}
 	public static void main(String[] args) {
-		longestSubStr("abcabcbb");
+		longestSubStr("abcabcdcaddcaddcad");
 
 	}
 

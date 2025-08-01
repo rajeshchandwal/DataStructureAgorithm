@@ -23,7 +23,7 @@ public class TwoSumProblem1 {
 	}
 
 	public static void main(String[] args) {
-		int[] num = {5,8,2,7,3};
+		int[] num = {2,7,3};
 		int[] num2 =twoSum(num,9);
 		for(int i=0; i<num2.length;i++) {
 			System.out.println(num2[i]);
